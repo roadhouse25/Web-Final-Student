@@ -1,0 +1,156 @@
+body {
+  margin: 0; 
+} 
+
+div a {
+  padding: 3px 35px; 
+}
+
+#top h1 { 
+  background-color: #F7CE3E;  
+  margin-left: 10%;  
+  margin-top: 5%; 
+  max-width: 5ch;
+  padding: 2%; 
+  
+} 
+
+nav img {   
+  background-color: #1A2930;
+  height: 40%;  
+}
+
+#top {  
+  display: grid;  
+  grid-template-columns: repeat(8, 1fr); 
+  height: 70px;  
+ } 
+
+#top a { 
+  background-color: #1A2930;  
+  color: white; 
+  display: inline-block;  
+  margin-left: 15%;  
+  margin-top: 13%; 
+  max-height: 4ch; 
+  max-width: 9ch; 
+  text-decoration: none; 
+}
+
+.top-nav-back {
+  background-image: url('https://picsum.photos/1400/900');   height: 400px; 
+  width: 100%; 
+  } 
+
+.header {
+  color: #F7CE3E;  
+  display: inline-block;  
+  font-size: 50px;
+  margin: 80px 0 0 500px;
+} 
+
+.header-paragraph { 
+  color: #F7CE3E;  
+} 
+
+#one { 
+  margin: auto;
+  width: 50%;
+} 
+
+#two {
+  margin: auto; 
+  width: 48%;
+} 
+
+#three {
+  margin: auto; 
+  width: 46%; 
+}
+
+.grid {  
+  display: grid;  
+  grid-template-columns: repeat(2fr, 1fr); 
+  grid-template-rows: repeat(4, 1fr);  
+  height: 40vh; 
+  margin: 20px;
+}
+
+.first-text {
+  grid-row-start: 1; 
+  grid-column-start: 2; 
+  margin: 20px;
+} 
+
+#grid-container {  
+  display: grid;  
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: 1fr 1fr;  
+  height: 40vh; 
+  margin: 20px;  
+}
+  
+ #long-box { 
+  background-color: #1A2930; 
+  grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2; 
+  margin: 0; 
+  position: relative; 
+} 
+
+#long-box h2{
+  padding: 5px;   
+  position: relative; 
+  text-align: center;  
+  top: 5%; 
+}
+
+.caption { 
+  color: #C5C1C0;
+  margin: 10px;
+}
+
+#pic-one {
+  grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3; 
+  margin: 0 0 0 13%; 
+} 
+
+#pic-two {
+  grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 3;
+	grid-column-end: 4; 
+  margin: 0 0 0 8%; 
+} 
+
+#pic-three {
+  grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 2; 
+  margin: 0 0 0 13%; 
+} 
+
+#pic-four {
+  grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 4; 
+  margin: 0 0 0 8%; 
+}
+
+#yellow-break {  
+  background-color: #F7CE3E; 
+  height: 5%;  
+  width: 40%; 
+}  
+
+div #yellow-break {
+  margin: 10% 0 0 29%;
+}
+
